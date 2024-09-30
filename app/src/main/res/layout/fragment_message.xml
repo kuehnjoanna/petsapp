@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cutepaw"
+    tools:context=".ui.MessageFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#75121112">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/headline"
+            android:text="A D O P T I O N   F O R M"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginVertical="10dp"
+            android:layout_marginHorizontal="30dp"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:background="@drawable/top_background">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="name of the dog"
+                android:textStyle="bold|italic"
+                android:id="@+id/nameOfTheDogTV"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#9C27B0"
+                android:textSize="40dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NAME:"
+                android:gravity="center"
+                android:textSize="25dp"
+                android:textColor="@color/white"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/nameET"
+                android:textSize="20dp"
+                android:textColor="#CECACA"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="ACCOMODATION (house/flat)"
+                android:gravity="center"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/addressET"
+                android:textSize="20dp"
+                android:textColor="#CECACA"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="IS IT YOUR FIRST DOG?"
+                android:gravity="center"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/whyET"
+                android:textSize="20dp"
+                android:textColor="#CECACA"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DO YOU OWN A GARDEN?"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/gardenET"
+                android:textSize="20dp"
+                android:textColor="#CECACA"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DO YOU HAVE CHILDREN?"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="25dp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/childrenET"
+                android:textSize="20dp"
+                android:textColor="#CECACA"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="DO YOU HAVE OTHER ANIMALS(if so what animals)?"
+                android:gravity="center"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:id="@+id/otherAnimalsET"
+                android:textColor="#CECACA"
+                android:layout_marginHorizontal="20dp"
+                android:textSize="20dp"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="send"
+                android:layout_gravity="bottom|center"
+                android:id="@+id/sendFormBTN"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</FrameLayout>

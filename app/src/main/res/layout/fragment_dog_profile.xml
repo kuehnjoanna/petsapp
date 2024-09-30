@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#460651"
+    tools:context=".ui.DogProfileFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_height="500dp"
+            android:layout_width="match_parent"
+            app:cardElevation="3dp"
+            app:cardCornerRadius="20dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="500dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/doggo"
+                    android:id="@+id/dogPhotoIV"/>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|end"
+                    android:background="#77FFFFFF"
+                    android:layout_marginBottom="5dp"
+                    android:layout_alignEnd="@id/dogPhotoIV"
+                    android:layout_alignBottom="@id/dogPhotoIV"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:background="@drawable/favselector"
+                        android:layout_marginHorizontal="5dp"
+                        android:id="@+id/favAddBTN"/>
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:layout_marginHorizontal="5dp"
+                        android:background="@drawable/baseline_share_24"
+                        android:id="@+id/shareProfileBTN"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="8dp"
+                    android:orientation="vertical"
+                    android:background="#C1FFFFFF"
+                    android:layout_marginBottom="8dp"
+                    android:layout_alignParentBottom="true">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/nameTV"
+                            android:layout_height="wrap_content"
+                            android:text="NAME"
+                            android:layout_marginHorizontal="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="30dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/dogGenderTV"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="gender"
+                            android:textStyle="italic"
+                            android:textColor="@color/black"
+                            android:textSize="20dp"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:id="@+id/dogAgeTV"
+                            android:layout_marginHorizontal="10dp"
+                            android:layout_height="wrap_content"
+                            android:text="age"
+                            android:textStyle="bold"
+                            android:textColor="@color/black"
+                            android:textSize="30dp"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:backgroundTint="#9C27B0"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginVertical="5dp"
+            android:text="Apply for adoption"
+            android:id="@+id/writeMessageBTN"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/dogDescriptionTV"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:paddingHorizontal="10dp"
+            android:background="#36FFFFFF"
+            android:layout_marginHorizontal="10dp"
+            android:layout_gravity="bottom"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
