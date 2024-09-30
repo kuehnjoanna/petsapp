@@ -7,9 +7,8 @@
 
 * 
 ## Screenshots
-
-<img src="https://ibb.co/KX6K3xx" width="200" height="400" alt="Screenshot 1">
-<img src="https://ibb.co/xY4phyV" width="200" height="400" alt="Screenshot 2">
+![Alt text](https://ibb.co/KX6K3xx)
+![Alt text](https://ibb.co/xY4phyV)
 
 ## Technologies Used
 
