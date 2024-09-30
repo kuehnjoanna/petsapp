@@ -1,17 +1,14 @@
 # PETSAPP
 
 ## Overview
-
+Small App created as an exercise while studying at Syntax Institut. It enables the user to browse through shelter dogs, add some to favorites, and fill out the form in case user is interested in adopting a pet. Future updates include adding a location specific search , based on a google map API.
 
 ## Features
 
-* 
-## Screenshots
-![Screenshot 1](https://ibb.co/KX6K3xx)
-![Screenshot 2](https://ibb.co/xY4phyV)
-
-## Technologies Used
-
+* Login 
+* Search function with filter
+* Addind fo favorites
+* Managing Favorites
 
 
 ## How to run
