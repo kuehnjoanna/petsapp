@@ -7,8 +7,8 @@
 
 * 
 ## Screenshots
-![Alt text](https://ibb.co/KX6K3xx)
-![Alt text](https://ibb.co/xY4phyV)
+![Screenshot 1](https://ibb.co/KX6K3xx)
+![Screenshot 2](https://ibb.co/xY4phyV)
 
 ## Technologies Used
 
@@ -32,7 +32,7 @@ The codebase is organized as follows:
 
 ## Dependencies
 
-* FNavigation
+* Navigation
 
 ## Acknowledgments
 
